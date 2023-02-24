@@ -36,7 +36,7 @@ public class StudentServiceImpl implements StudentService {
 			return studentRepo.save(student);
 	}
 
-//	getting whole class average percentage in recent semester
+//	getting whole class average percentage in recent semester.
 	@Override
 	public Integer getWholeClassAvgPercentageInRecentSem() throws StudentException {
 
